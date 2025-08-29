@@ -1,0 +1,18 @@
+/* frontend/assets/style.css */
+
+/* 
+  This is a CSS media query. 
+  The styles inside will ONLY apply if the screen width is 768px or less.
+  This is a common breakpoint for mobile phones.
+*/
+@media (max-width: 768px) {
+    /* 
+      Targets the container for Streamlit's columns.
+      'flex-direction: column' forces the columns to stack vertically.
+      'gap' adds some space between the stacked items.
+    */
+    div[data-testid="stHorizontalBlock"] {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+}
