@@ -139,4 +139,5 @@ while True:
     with clock_placeholder.container():
         st.markdown(f"<h3 style='text-align: right; color: #1E90FF;'>{time_str}</h3>", unsafe_allow_html=True)
         st.markdown(f"<p style='text-align: right; margin-top: -10px;'>{date_str}</p>", unsafe_allow_html=True)
+
     time.sleep(1)
